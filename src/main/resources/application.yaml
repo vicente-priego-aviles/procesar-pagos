@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: procesar-pagos
+
+camunda:
+  client:
+    mode: simple
+    zeebe:
+      enabled: true
+      grpc-address: http://127.0.0.1:26500
+      rest-address: http://127.0.0.1:8080
