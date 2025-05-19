@@ -4,7 +4,8 @@ spring:
 
 camunda:
   client:
-    mode: simple
+    # mode: simple
+    mode: self-managed
     zeebe:
       enabled: true
       grpc-address: http://127.0.0.1:26500
